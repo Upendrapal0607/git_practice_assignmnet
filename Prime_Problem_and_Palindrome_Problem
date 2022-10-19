@@ -1,3 +1,5 @@
+//check prime
+
 let num=13;
 
 for(let i=0;i<=num;i++){
@@ -9,3 +11,25 @@ if(count==2){
 } else{
     console.log(num,"is not prime")
 } 
+
+
+// check palindrom
+
+let string="mam"
+let bag=""
+for(let i=string.length;i>0;i--){
+bag+=i}
+if(string==bag){
+console.log(" string is Palindrom")}
+else{
+console.log("Not Palindrom")}
+
+
+
+
+
+
+
+
+
+
