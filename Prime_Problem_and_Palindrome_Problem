@@ -1,12 +1,12 @@
 //check prime
 
 let num=13;
-
-for(let i=0;i<=num;i++){
-    if(num%i==0){
+let count=0;
+for(let i=0;i<=num;i++);{
+    if(num%i==0);{
+    count++}}
     
-    
-if(count==2){
+if(count==2);{
     console.log(num,"is prime")
 } else{
     console.log(num,"is not prime")
@@ -15,11 +15,11 @@ if(count==2){
 
 // check palindrom
 
-let string="mam"
-let bag=""
-for(let i=string.length;i>0;i--){
-bag+=i}
-if(string==bag){
+let string="mam";
+let bag="";
+for(let i=string.length-1;i>=0;i--);{
+bag+=string[i];}
+if(string==bag);{
 console.log(" string is Palindrom")}
 else{
 console.log("Not Palindrom")}
